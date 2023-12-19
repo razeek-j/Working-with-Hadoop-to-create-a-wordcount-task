@@ -52,8 +52,8 @@ In the world of big data, Hadoop has emerged as a powerful tool for distributed 
 
 ## License
 
-This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
+This project is free.
 
 ## Contact
 
-For any inquiries or additional information, feel free to contact the developers at [Your Email Address].
+For any inquiries or additional information, feel free to contact the developers at moosarazeek@gmail.com.
