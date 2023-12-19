@@ -41,7 +41,19 @@ In the world of big data, Hadoop has emerged as a powerful tool for distributed 
 ### Execution Steps
 1. **Input Preparation**: Provide the pre-processed text file containing words without punctuation.
 2. **Hadoop Command**: Run the Hadoop Word Count program using the appropriate command-line syntax, specifying the input and output paths.
-3. **Result Retrieval**: Access the generated output file containing word counts for analysis and further processing.
+3. **Commands are**: open cmd with administrator then enter the commands as follows
+   ```bash
+   start-dfs
+   start-yarn
+   hadoop fs -mkdir /input 
+   hadoop fs -put C:\data.txt \input
+   hadoop fs -ls \input 
+   hadoop dfs -cat /input/data.txt
+   hadoop jar C:\hadoop-3.3.6\share\hadoop\mapreduce\hadoop-mapreduce-examples-3.3.6.jar wordcount /input /out
+   hadoop fs -cat /out/* 
+   hadoop fs -rm -r /input/data.txt  
+
+5. **Result Retrieval**: Access the generated output file containing word counts for analysis and further processing.
 
 ## Project Structure
 
