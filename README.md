@@ -46,10 +46,10 @@ In the world of big data, Hadoop has emerged as a powerful tool for distributed 
    start-dfs
    start-yarn
    hadoop fs -mkdir /input 
-   hadoop fs -put C:\data.txt \input
+   hadoop fs -put (location of the preprocessed text file, data.txt) \input
    hadoop fs -ls \input 
    hadoop dfs -cat /input/data.txt
-   hadoop jar C:\hadoop-3.3.6\share\hadoop\mapreduce\hadoop-mapreduce-examples-3.3.6.jar wordcount /input /out
+   hadoop jar (JAR file location in the computer) wordcount /input /out
    hadoop fs -cat /out/* 
    hadoop fs -rm -r /input/data.txt  
 
