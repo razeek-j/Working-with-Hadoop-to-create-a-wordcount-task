@@ -1,6 +1,5 @@
 # Hadoop Word Count
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Overview
 
